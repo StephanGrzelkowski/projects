@@ -5,12 +5,15 @@
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	height: 20px;
+	height: 25px;
 	width: 100%;
 }
 
 ul{
+	position: relative;
 	list-style-type: none;
+	height: 25px;
+	margin-top: 5px;
 }
 
 li{
@@ -21,9 +24,22 @@ li{
 	font-size: 15px;
 }
 
-li img{
-	/*height: 20px;
-	width: 20px;*/
+#apps{
+	height: 20px;
+	width: 20px;
+	background-color: gray;
+
+}
+
+#Signin{
+	height: 20px;
+	width: 70px;
+	background-color: #1E90ff;
+	border-radius: 2px;
+	text-align: center;
+	border: solid blue 1px;
+	color: white;
+	font-weight: 800;
 
 }
 
@@ -44,4 +60,43 @@ li img{
 }
 
 
-	
+input{
+	width: 30%;
+	height: 30px;
+}
+
+.buttons {
+	display: inline;
+	width: 145px;
+	height: 30px;
+	background-color: #e0e0e0;
+	margin:10px;
+	border: none;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: #e0e0e0;
+	margin: 0;
+	border: none;
+	left: 0px;
+}
+
+.footLeft {
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+	margin-left: 28px;
+}
+
+.footRight {
+	float: right;
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+	margin-left: 28px;
+	right: 10px;
+}
